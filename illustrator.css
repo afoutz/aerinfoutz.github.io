@@ -1,0 +1,134 @@
+header {
+	background-color: #716776;
+	color: #E3D8E9; 
+	background-position: right; 
+	background-repeat: no-repeat; 
+	line-height: 500%; 
+	text-indent: 1em;
+}
+body {
+	background-image: linear-gradient(to bottom, #f2edf5, #716776);
+	color: #ffffff;
+}
+nav {
+	padding: 1em;
+	font-size: 120%;
+	float: left;
+	width: 130px;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 10px;
+	transition: color 2s linear;
+}
+nav a:link {
+	color: #ffffff;
+}
+nav a:visited {
+	color: #59515c;
+}
+nav a:hover {
+	color: #9525ac;
+}
+main {
+	padding: 1px 20px 20px 30px;
+	display: block;
+	overflow: auto;
+}
+p {
+	padding: 5px 20px 5px;
+}
+h2 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+main ul {
+	padding-left: 60px;
+	padding-bottom: 10px;
+}
+table {
+	border: 2px #716776;
+	border-collapse: collapse;
+	margin: auto;
+	margin-bottom: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+td {
+	border: 2px solid #716776;
+	padding: 0.5em;
+	text-align: center;
+}
+th {
+	border: 2px solid #716776;
+	padding: 0.5em;
+}
+tr:nth-of-type(even) {
+	background-color: #d0c9d4;
+}
+tr:nth-of-type(odd) {
+	background-color: #a49aa8
+}
+label {
+	margin-left: 20px;
+}
+input {
+	display: block;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+textarea {
+	display: block;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+input[type="submit"] {
+	margin-left: 140px;
+}
+footer {
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	padding: 2em;
+}
+#images {
+	display: flex;
+	margin: 10px;
+	justify-content: space-around;
+	align-items: center;
+}
+#hero {
+	display: flex;
+	margin: 10px;
+	justify-content: space-around;
+	align-items: center;
+}
+#wrapper {
+	background-color: #e7dfec;
+	width: 80%;
+	min-width: 960px;
+	max-width: 2048px;
+	margin-left: 40px;
+	margin-right: auto;
+	background-image: linear-gradient(to bottom, #e3dce7, #807485);
+	background-repeat: no-repeat;
+}
+#rateswrapper {
+	background-color: #e7dfec;
+	width: 80%;
+	min-width: 960px;
+	max-width: 2048px;
+	margin-left: 40px;
+	margin-right: auto;
+	background-image: linear-gradient(to bottom, #e2dae6, #817986);
+	background-repeat: no-repeat;
+}
